@@ -1,0 +1,20 @@
+<div>
+  <button (click) = "endDayStart()" mat-raised-button color="primary">End your Day</button>
+  <button mat-raised-button color="primary" (click)="openDialog()">Add Projects</button>
+<!-- <div>
+  <p>Hi, Your day has ended  at {{now}}  time</p>
+</div> -->
+
+
+</div>
+
+<div *ngIf = 'flag'>
+  <mat-card class ="ed">
+      <mat-card-title> Hi, Your day has ended at {{now}}</mat-card-title>
+  </mat-card>
+
+</div>
+
+<!-- <div *ngIf ="true"> <app-project-dialog>
+  
+</app-project-dialog></div> -->

@@ -1,0 +1,24 @@
+<!-- <p>start-day works!</p> -->
+
+
+<div>
+    <button (click) = "startDayStart()" mat-raised-button color="primary">Start Your Day</button>
+<!-- <div>
+    <p>Hi, Your day has started at {{now}}  time</p>
+</div> -->
+
+
+</div>
+
+<div *ngIf = 'flag'>
+    <mat-card class ="sd">
+        <mat-card-title> Hi, Your day has started at {{now}}</mat-card-title>
+    </mat-card>
+
+</div>
+
+
+
+<!-- <app-start-day></app-start-day> -->
+<!-- <router-outlet></router-outlet> -->
+<!-- <app-root></app-root> -->
